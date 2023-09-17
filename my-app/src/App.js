@@ -4,6 +4,7 @@ import { Home } from "./pages/home";
 import { Profile } from "./pages/profile";
 import { Navigate } from "react-router-dom";
 import { ErrorRoute } from "./pages/Root/error404";
+import "./styles/index.scss";
 
 const App = () => { // замість function *назва* {}, const *назва* = () => {}
   const { home, profile } = ROUTES;

@@ -1,0 +1,27 @@
+//BASE
+@import "vars";
+@import "typography";
+@import "breakpoints";
+
+.menu {
+    text-align: center; 
+
+    &-list {
+        list-style-type: none; 
+        padding: 0;
+        display: flex; 
+        justify-content: center; 
+    }
+    &-link {
+        margin: 0 1rem;
+    }
+    a {
+        text-decoration: none; 
+        color: black; 
+      }
+    
+      a:hover {
+        text-decoration: underline; 
+      }
+}
+      
