@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { ROUTES } from "./const";
-import { Home } from "./pages/home";
-import { Profile } from "./pages/profile";
+import { Home } from "./pages/Home/index.js";
+import { Profile } from "./pages/Profile/index.js";
 import { Navigate } from "react-router-dom";
 import { ErrorRoute } from "./pages/Root/error404";
 import "./styles/index.scss";

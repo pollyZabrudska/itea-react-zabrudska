@@ -1,6 +1,8 @@
 import { Button } from "../../components/Button/Button";
 import { Input } from "../Input/Input";
 import "../../styles/index.scss";
+import { FilmInfo } from "../../features/FilmInfo/FilmInfo";
+import { RateStars } from "../Rate/Rate";
 
 export const Fantasy = () => {
     return (
@@ -12,7 +14,9 @@ export const Fantasy = () => {
             <p className="film-desc">Narcissistic and overly arrogant Stephen Strange, a talented neurosurgeon whose subtle <br />
             filigree manipulations have saved more than one human life, many prophesied the <br /> 
             glory of one of the greatest doctors of our time.</p>
+            <FilmInfo />
             <Button />
+            <RateStars />
         <Input />
         </div>
         <div className="film">
@@ -21,7 +25,9 @@ export const Fantasy = () => {
             className="film-image"/>
             <p className="film-desc">The events unfold around Peter Parker, who is trying to come to terms with the many <br />
             changes that have occurred since the final battle of the Avengers.</p>
+            <FilmInfo />
         <Button />
+        <RateStars />
         <Input />
         </div>
         <div className="film">
@@ -30,7 +36,9 @@ export const Fantasy = () => {
             className="film-image"/>
             <p className="film-desc">After defeating Mysterio, Peter Parker's identity is exposed to the world, <br />
             putting his life and mission as Spider-Man in jeopardy.</p>
+            <FilmInfo />
         <Button />
+        <RateStars />
         <Input />
         </div>
         <div className="film">
@@ -39,7 +47,9 @@ export const Fantasy = () => {
             className="film-image"/>
             <p className="film-desc">Gwen Stacy joins Miguel O'Hara's elite Spider-Men squad and helps protect <br />
             the multiverse from dangerous threats and anomalies.</p>
+            <FilmInfo />
         <Button />
+        <RateStars />
         <Input />
         </div>
         <div className="film">
@@ -48,7 +58,9 @@ export const Fantasy = () => {
             className="film-image"/>
             <p className="film-desc">After the main character Peter Parker realized that he had a great responsibility <br />
             for the gift given to him, his life gradually began to improve.</p>
+            <FilmInfo />
         <Button />
+        <RateStars />
         <Input />
         </div>
     </div>

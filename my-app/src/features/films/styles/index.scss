@@ -3,12 +3,15 @@
 .film {
     display: flex;
     flex-direction: column;
-    gap: 12px;
     width: 15rem;
     text-align: justify;
 
 p {
     @include t-b3;
+}
+
+&-name {
+    text-align: center;
 }
 
 &-image {
@@ -20,3 +23,7 @@ p {
     gap: 16px;
 }
 }
+h4 {
+    font-size: 20px;
+  }
+  

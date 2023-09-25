@@ -1,3 +1,3 @@
 export const Label = ({ className }) => {
-    return <h4 className={className}>Write comment below</h4>;
+    return <h3 className={className}>Write comment below</h3>;
 };

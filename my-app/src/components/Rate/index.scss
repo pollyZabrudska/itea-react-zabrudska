@@ -1,0 +1,12 @@
+@import "../../styles/index.scss";
+
+.star {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 5px;
+    color: #959595a9;
+  }
+  
+  .selected {
+    color: rgb(248, 214, 26);
+  }

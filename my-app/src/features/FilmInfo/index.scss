@@ -1,0 +1,36 @@
+@import "../../styles/index.scss";
+
+.info-button {
+margin: .5rem 0;
+background-color: rgb(208, 236, 243);
+color: black;
+font-size: 16px;
+font-weight: bold;
+padding: .5rem 1rem;
+border-radius: .5rem;
+border: 2px solid rgb(1, 1, 62);
+cursor: pointer;
+transition: background-color 0.3s, transform 0.2s;
+}
+
+.info-button:hover {
+background-color: #c3cfdd; 
+}
+
+.info-button:active {
+transform: scale(0.95); 
+}
+
+.modal-window {
+border: 2px solid rgb(154, 154, 154);
+border-radius: 20px;
+margin: .5rem 1rem;
+background-color: whitesmoke;
+text-align: justify;
+padding: .5rem 1rem;
+}
+
+.modal-wind-info {
+    font-size: 16px;
+    font-weight: normal;
+}

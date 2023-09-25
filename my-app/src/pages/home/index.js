@@ -1,4 +1,4 @@
-import { Fantasy } from "../../components//films/fantasy";
+import { Fantasy } from "../../components/films/fantasy";
 import { Crime } from "../../components/films/crime";
 import { Menu } from "../../features/Menu/Menu";
 
