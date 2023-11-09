@@ -2,6 +2,8 @@ import { Menu } from "../../features/Menu/Menu";
 import { useState } from "react";
 import "../../components/AddToFavourite/index.module.css"
 import { FilmList } from "../../features/films/FilmList";
+import { Crime } from "../../components/films/crime";
+import { Fantasy } from "../../components/films/fantasy";
 
 export const Home = () => {
 
@@ -17,8 +19,8 @@ export const Home = () => {
     <Menu />
     <div>
     <h1>Home</h1>
-    
-    <FilmList />
+    <Fantasy />
+    <Crime />
     </div>
     </div>
     );

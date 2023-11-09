@@ -2,7 +2,7 @@ import s from "./index.module.css" //стилі за допомогою Моду
 import { useState, onClick } from "react";
 import "../../features/films/styles/index.scss";
 
-export const addToFavourite = (props) => {
+export const AddToFavourite = (props) => {
     const { name, image, desc, onAddToFavorites } = props;
     const [added, setAdded] = useState(false);
     const handleAddToFavorites = () => {
